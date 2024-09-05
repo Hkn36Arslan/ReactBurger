@@ -4,8 +4,8 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg" style={{ backgroundColor: "red" }}>
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg bg-danger">
+      <div className="container-fluid mx-5">
         <img
           src={burgerLogo}
           alt="Logo"
@@ -14,22 +14,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link text-white textNav " to="/">
+              <Link className="nav-link text-white btn btn-outline-warning textNav " to="/">
                 Anasayfa
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white textNav " to="/menu">
+              <Link className="nav-link text-white btn btn-outline-warning textNav " to="/menu">
                 Menü
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white textNav " to="/about">
+              <Link className="nav-link text-white btn btn-outline-warning textNav " to="/about">
                 Hakkımızda
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white textNav" to="/contact">
+              <Link className="nav-link text-white btn btn-outline-warning textNav " to="/contact">
                 İletişim
               </Link>
             </li>
